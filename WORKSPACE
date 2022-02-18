@@ -43,6 +43,7 @@ llvm_toolchain(
     llvm_mirror = "https://github.com/aspect-build/llvm-project/releases/download/llvmorg-",
     sysroot = {
         "linux-x86_64": "@linux_sysroot//:sysroot",
+        "linux-aarch64": "@linux_sysroot//:sysroot",
     },
 )
 
